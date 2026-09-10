@@ -1,0 +1,29 @@
+TEXT EMBEDDINGS – SHORT REPORT
+
+Introduction
+
+Text embeddings are numerical representations of text that capture the semantic meaning of words and sentences. They help computers understand the relationship between different pieces of text.
+
+Methodology
+
+In this project, 20 sentences from different topics such as Artificial Intelligence, Education, Health, Environment, Sports, Space, Technology and Science were collected.
+
+The Sentence Transformer model was used to convert the sentences into 384-dimensional embedding vectors. Cosine similarity was then calculated between sentence embeddings to measure their semantic similarity.
+
+Results
+
+A total of 190 sentence pairs were compared. The similarity scores were sorted in descending order to identify the top five most similar sentence pairs.
+
+The highest similarity was observed between sentences related to space exploration. Environment-related sentences also showed high similarity because they discuss climate change, carbon emissions and renewable energy.
+
+Importance in Semantic Search
+
+Embeddings are important in semantic search because they allow a system to find information based on meaning rather than exact keyword matching. For example, two sentences with different words but similar meanings can still have a high similarity score.
+
+Importance in LLM Applications
+
+Text embeddings are widely useful in Large Language Model applications such as semantic search, recommendation systems, document retrieval, question answering and Retrieval-Augmented Generation (RAG).
+
+Conclusion
+
+This project demonstrates how text embeddings can represent the meaning of sentences and how cosine similarity can be used to compare them. The results show that semantically related sentences generally have higher similarity scores.

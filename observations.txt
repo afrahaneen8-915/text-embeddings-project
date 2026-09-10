@@ -1,0 +1,21 @@
+OBSERVATIONS
+
+1. Sentence embeddings convert text into numerical vectors that represent their semantic meaning.
+
+2. The 20 sentences were converted into 384-dimensional embedding vectors using the Sentence Transformer model.
+
+3. Cosine similarity was used to compare the meaning of different sentence pairs.
+
+4. Space-related sentences showed high similarity because they discuss space exploration, planets and scientific technologies.
+
+5. Environment-related sentences showed high similarity because they discuss climate change, carbon emissions and renewable energy.
+
+6. Health-related sentences showed good similarity because regular exercise and balanced diet are related to a healthy lifestyle.
+
+7. Sports-related sentences such as football and cricket showed similarity because both belong to the sports domain.
+
+8. Sentences from unrelated topics generally produced lower similarity scores.
+
+9. The results show that embeddings can identify semantic relationships even when sentences do not contain exactly the same words.
+
+10. Therefore, text embeddings are useful for semantic search, recommendation systems and LLM applications.
